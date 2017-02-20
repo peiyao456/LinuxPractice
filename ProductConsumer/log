@@ -1,0 +1,6 @@
+gcc -o ProductConsumer ProductConsumer.c -lpthread
+ProductConsumer.c: In function ‘AllocNode’:
+ProductConsumer.c:20: error: ‘NewNOde’ undeclared (first use in this function)
+ProductConsumer.c:20: error: (Each undeclared identifier is reported only once
+ProductConsumer.c:20: error: for each function it appears in.)
+make: *** [ProductConsumer] Error 1
